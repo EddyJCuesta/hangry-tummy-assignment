@@ -175,6 +175,8 @@ section .leftImg {
     display: flex;
     justify-content: center;
     padding-top: 17rem;
+    padding-left: 0;
+    margin-top: 0;
  }
  .locateMenuReach ul li {
     display: inline-block;
@@ -190,13 +192,13 @@ section .leftImg {
  .locateMenuReach .fa-solid {
     font-size: 6rem;
  }
- .fa-solid .fa-location-arrow {
-    margin-left: 14rem;
+ .fa-solid.fa-location-arrow {
+    margin-left: 15rem;
  }
 
- .fa-solid .fa-utensils {
+ .fa-solid.fa-utensils {
     margin-left: 8rem;
  }
- .fa-solid .fa-phone-flip {
+ .fa-solid.fa-phone-flip {
     margin-left: 14rem;
  }
