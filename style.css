@@ -80,6 +80,10 @@ nav a {
     color: #000;
 }
 
+nav a:hover {
+    color: #E75605;
+}
+
 .headerContainer {
     width: 100%;
     justify-content: center;
