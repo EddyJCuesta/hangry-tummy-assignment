@@ -9,3 +9,16 @@ html { box-sizing: border-box;}
 /* font-family: 'Josefin Sans', sans-serif;
 font-family: 'Montserrat', sans-serif; */
 /* font-family: 'Catamaran', sans-serif; */
+
+/* REUSEABLE STYLE */
+.wrapper {
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 90%;
+}
+
+body {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 2rem; 
+    font-weight: 400;
+}
