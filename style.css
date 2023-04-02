@@ -115,3 +115,29 @@ span {
 .socialIcons ul li i{
     font-size: 2rem;
 } 
+
+/* New to our menu/Full Experience Section */
+section .menu, .experienceContainer {
+    height: 53vh;
+    display: flex;
+}
+
+section .menuText, .rightImgCard {
+    width: 50%;
+}
+
+section .menuText, .experienceText {
+    padding: 50px;
+}
+
+section .rightImg {
+    width: 100%;
+}
+
+section .experienceText, .leftImgCard {
+    width: 50%;
+}
+
+section .leftImg {
+    width: 100%;
+}
