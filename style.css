@@ -202,3 +202,19 @@ section .leftImg {
  .fa-solid.fa-phone-flip {
     margin-left: 14rem;
  }
+
+ /* The Gram gallery section */
+
+ .theGram {
+    height: 50vh;
+    width: 100%;
+    margin: 80px 0 80px 0;
+ }
+
+ .theGram h2 {
+    text-align: center;
+ }
+
+ .gramImages {
+    text-align: center;
+ }
