@@ -283,6 +283,15 @@ section .leftImg {
 
  /* Media Query max-width: 375px */
  @media(max-width:375px) {
+    /* Header Section */
+    header {
+        background-size: 140%;
+        background-position: bottom;
+    }
+    nav {
+        height: 8vh;
+    }
+
     header nav ul {
         display: none;
     }
@@ -301,5 +310,17 @@ section .leftImg {
     .socialIcons {
         display: none;
     }
+    h1 {
+        font-size: 5rem;
+        margin-right: 0px;
+    }
+    /* New to our menue/Full Experience Section */
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .menuText {
+        order: 1;
+    }
  }
