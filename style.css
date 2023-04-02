@@ -143,13 +143,17 @@ section .leftImg {
 }
 
 /* DESERT SECTION */
-.desserts {
-    height: 50vh;
+.wrapper .dessertBackground {
+    height: 65vh;
     width: 100%;
+}
+.desserts {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
-    margin: 60px 0 60px 0;
+    padding: 80px 0 80px 72px;
+}
+.dessertBackground {
+    background-color: #EEEEEE;
 }
 
 .desserts h2 {
