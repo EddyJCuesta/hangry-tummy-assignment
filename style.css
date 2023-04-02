@@ -84,6 +84,10 @@ nav a:hover {
     color: #E75605;
 }
 
+.fa-solid.fa-bars {
+    display: none;
+}
+
 .headerContainer {
     width: 100%;
     justify-content: center;
@@ -277,4 +281,25 @@ section .leftImg {
     margin-right: 10rem;
  }
 
- 
+ /* Media Query max-width: 375px */
+ @media(max-width:375px) {
+    header nav ul {
+        display: none;
+    }
+
+    .fa-solid.fa-bars {
+        display: block;
+        position: absolute;
+        top: 2.75rem;
+        right: 2rem;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 4rem;
+        width: 58px;
+        height: 38px;
+    }
+    .socialIcons {
+        display: none;
+    }
+
+ }
