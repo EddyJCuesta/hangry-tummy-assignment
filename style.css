@@ -22,3 +22,28 @@ body {
     font-size: 2rem; 
     font-weight: 400;
 }
+
+/* GENERIC STYLING */
+html {
+    font-size: 62.5%;
+}
+
+h2 {
+    font-family:'Montserrat', sans-serif;
+    font-size: 4.2rem;
+    font-weight: bold;
+    color: #E75605;
+}
+
+p {
+    line-height: 40px;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid #E75605;
+    background-color: white;
+    padding: 10px;
+}
