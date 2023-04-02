@@ -47,3 +47,71 @@ button {
     background-color: white;
     padding: 10px;
 }
+
+/* HEADER */
+header {
+    height: 70vh;
+    width: 100%;
+    background-image: url(./Haungry-Tummy-Assets/header-burger.png);
+    background-size: 50%;
+    background-position: left;
+    background-repeat: no-repeat; 
+}
+
+nav {
+    height: 20vh;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    padding: 20px;
+    color: #000;
+}
+
+.headerContainer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1 auto;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14.5rem;
+    text-align: right;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-right: 7.5rem;
+    color: #E75605;
+    display: block;
+    flex: 1;
+}
+span {
+    display: block;
+}
+
+.socialIcons {
+    line-height: 4rem;
+    margin-bottom: 18rem;
+}
+
+.socialIcons ul {
+    list-style: none;
+}
+
+.socialIcons ul li i{
+    font-size: 2rem;
+} 
