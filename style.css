@@ -141,3 +141,26 @@ section .experienceText, .leftImgCard {
 section .leftImg {
     width: 100%;
 }
+
+/* DESERT SECTION */
+.desserts {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: 60px;
+    background-color: #EEEEEE;
+}
+
+.desserts h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.dessertText {
+    margin-left: 40px;
+}
+.dessertImg {
+    width: 41.7rem;
+}
