@@ -164,3 +164,39 @@ section .leftImg {
 .dessertImg {
     width: 41.7rem;
 }
+
+/* Location-Menu-Reach Out Section  */
+.locateMenuReach{
+    height: 50vh;
+    width: 100%;
+    background-color: #E75605;
+ }
+ .locateMenuReach ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 17rem;
+ }
+ .locateMenuReach ul li {
+    display: inline-block;
+ }
+    
+ .locateMenuReach h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 4.2rem;
+    font-weight: 700;
+    padding: 4rem;
+ }
+ .locateMenuReach .fa-solid {
+    font-size: 6rem;
+ }
+ .fa-solid .fa-location-arrow {
+    margin-left: 14rem;
+ }
+
+ .fa-solid .fa-utensils {
+    margin-left: 8rem;
+ }
+ .fa-solid .fa-phone-flip {
+    margin-left: 14rem;
+ }
