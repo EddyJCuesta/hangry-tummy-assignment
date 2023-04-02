@@ -209,15 +209,48 @@ section .leftImg {
  /* The Gram gallery section */
 
  .theGram {
-    height: 50vh;
+    height: 56vh;
     width: 100%;
     margin: 80px 0 80px 0;
  }
 
  .theGram h2 {
     text-align: center;
+    margin-bottom: 80px;
  }
 
  .gramImages {
     text-align: center;
  }
+
+ .gramImages img {
+    padding: 10px;
+ }
+
+ /* Footer Section */
+ footer {
+    height: 44vh;
+    width: 100%;
+ }
+
+ footer .wrapper {
+    background-color: #EEEEEE;
+ }
+
+ footer nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ footer p {
+    margin: 0px;
+ }
+
+ .footerFlex {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+ }
+
+ 
