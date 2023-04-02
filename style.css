@@ -253,4 +253,24 @@ section .leftImg {
     padding-bottom: 60px;
  }
 
+ #email {
+    width: 40rem;
+    padding: 10px;
+    border: none;
+    margin-right: -3px;
+    height: 4.8rem;
+ }
+
+ footer button {
+    padding-bottom: 13px;
+ }
+
+ footer h2 {
+    text-align: center;
+ }
+
+ form h2 {
+    margin-right: 10rem;
+ }
+
  
