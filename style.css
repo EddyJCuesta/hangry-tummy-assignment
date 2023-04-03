@@ -410,4 +410,37 @@ section .leftImg {
         font-size: 2.99rem;
         margin: 0px 0px 40px 0px;
     }
+    /* Footer Section */
+    .footerFlex {
+        display: flex;
+        flex-direction: column;
+    }
+    footer .wrapper {
+        padding-top:40px ;
+     }
+     footer nav ul {
+        padding-left: 0px;
+     }
+     footer ul a {
+        font-size: 1.7rem;
+        padding: 10px;
+     }
+     footer h2 {
+        font-size: 2.99rem;
+        margin-right: 0px;
+     }
+     footer div {
+        text-align: center;
+     }
+     footer p {
+        font-size: 1.7rem;
+     }
+     #email {
+        width: 31rem;
+        margin: 10px 0px 10px 0px;
+        text-align: center;
+     }
+     footer button {
+        width: 94%;
+     }
  }
