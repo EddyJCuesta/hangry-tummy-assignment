@@ -370,5 +370,30 @@ section .leftImg {
     .dessertBackground {
         padding: 62px 0px 20px 0px;
     }
+    /* Location-Menu-Reach Out Section */
+    .locateMenuReach {
+        height: 80vh;
+    }
+    .locateMenuReach ul {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 0px;
+    }
+    .locateMenuReach h3 {
+        font-size: 2.99rem;
+        padding: 0px 0px 20px 0px;
+    }
+    .fa-solid.fa-location-arrow {
+        margin-left: 0px;
+     }
+    
+     .fa-solid.fa-utensils {
+        margin-left: 0px;
+     }
+     .fa-solid.fa-phone-flip {
+        margin-left: 0px;
+     }
     
  }
