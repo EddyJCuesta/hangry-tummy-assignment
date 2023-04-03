@@ -335,6 +335,7 @@ section .leftImg {
     section .menuText,
     .experienceText {
         padding: 10px;
+        text-align: center;
     }
     .menuText h2 {
     font-size: 2.9rem;
@@ -342,4 +343,12 @@ section .leftImg {
     .menuText {
         text-align: center;
     }
+    section .experienceText, .leftImgCard {
+        width: 100%;
+    }
+    section .experienceText
+    h2 {
+        font-size: 2.9rem;
+    }
+    
  }
