@@ -395,5 +395,19 @@ section .leftImg {
      .fa-solid.fa-phone-flip {
         margin-left: 0px;
      }
-    
+    /* The Gram Sections */
+    .theGram {
+        height: 28vh;
+    }
+    .theGram .gramImgThree{
+        display: none;
+    }
+    .gramImages img {
+        padding: 0px;
+        width: 49%;
+    }
+    .theGram h2 {
+        font-size: 2.99rem;
+        margin: 0px 0px 40px 0px;
+    }
  }
