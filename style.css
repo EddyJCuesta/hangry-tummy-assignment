@@ -350,5 +350,25 @@ section .leftImg {
     h2 {
         font-size: 2.9rem;
     }
+    /* Dessert Section */
+    .desserts {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .desserts h2 {
+        font-size: 2.9rem;
+    }
+    .dessertImgContainer, .dessertImg {
+        width: 100%;
+    }
+    .dessertText {
+        text-align: center;
+        padding: 10px;
+        margin:0px
+    }
+    .dessertBackground {
+        padding: 62px 0px 20px 0px;
+    }
     
  }
