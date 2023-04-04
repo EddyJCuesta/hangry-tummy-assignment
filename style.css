@@ -285,8 +285,9 @@ section .leftImg {
  @media(max-width:375px) {
     /* Header Section */
     header {
-        background-size: 140%;
-        background-position: bottom;
+        height: 65vh;
+        background-size: 130%;
+        background-position: bottom left -120px;
     }
     nav {
         height: 8vh;
